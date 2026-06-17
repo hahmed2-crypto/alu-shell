@@ -12,7 +12,7 @@ sigterm_handler()
 
 sigint_handler()
 {
-    echo "Y U no love me?!"
+    echo "I love to kill command"
 }
 
 trap sigterm_handler SIGTERM

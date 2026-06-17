@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This script manages the manage_my_process daemon.
-
+# This is a working manage my process daemon.
 case "$1" in
     start)
         ./manage_my_process &
